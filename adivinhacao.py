@@ -1,8 +1,10 @@
+from random import random, randint, randrange
+
 print('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
 print("Bem vindo ao jogo de adivinhação")
 print('-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
 
-numero_secreto = 42
+numero_secreto = randrange(1, 101)
 tentativas = 3
 
 for rodada in range(1, tentativas + 1):
